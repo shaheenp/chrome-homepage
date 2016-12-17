@@ -1,0 +1,36 @@
+body {
+    background-color: #202020;
+    color: #d5c4a1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Mono';
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#content {
+    max-width: 100%;
+}
+
+.section {
+    display: inline-block;
+    font-size: 12px;
+    margin: 20px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.title {
+    color: #d5c4a1;
+    margin-bottom: 5px;
+}
+
+.links {
+    background-color: #d5c4a1;
+    color: #202020;
+    padding: 5px 20px;
+}

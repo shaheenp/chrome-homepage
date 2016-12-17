@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Homepage",
+    "description": "my custom homepage",
+    "version": "1.0",
+    "permissions": [
+        "bookmarks"
+    ],
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    }
+}
