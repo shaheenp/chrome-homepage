@@ -5,6 +5,11 @@ chrome.bookmarks.getSubTree('1', tree => {
 
     for (let folder of folders) {
 
+        // don't display folders that begin with a "."
+        if (folder.title.length && folder.title[0] === '.') {
+            continue;
+        }
+
         // all top level folders should be folders w/ items
         if (Array.isArray(folder.children) && folder.children.length) {
 
