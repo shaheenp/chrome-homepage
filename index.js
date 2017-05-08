@@ -10,7 +10,7 @@ chrome.bookmarks.getSubTree('1', tree => {
             continue;
         }
 
-        // all top level folders should be folders w/ items
+        // all top level items should be bookmark folders
         if (Array.isArray(folder.children) && folder.children.length) {
 
             let bookmarks = folder.children;
@@ -38,3 +38,4 @@ chrome.bookmarks.getSubTree('1', tree => {
     }
 
 });
+
