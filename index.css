@@ -25,7 +25,8 @@ a {
 
 .title {
     font-size: 16px;
-    border-bottom: 1px solid #d5c4a1;
+    border-bottom: 1px solid rgba(213, 196, 161, .6);
+    padding-bottom: 2px;
     margin-bottom: 20px;
 }
 
